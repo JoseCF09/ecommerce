@@ -14,7 +14,7 @@ const SignInPage = () => {
 
   const signInClick = async () => {
     const response = await axios.post(
-      "http://localhost:3000/auth/signin",
+      "https://ecommerce-api-production-8106.up.railway.app/auth/signin",
       user
     );
 

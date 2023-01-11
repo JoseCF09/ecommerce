@@ -11,7 +11,7 @@ const SignUpPage = () => {
 
   const signUp = async () => {
     const response = await axios.post(
-      "http://localhost:3000/auth/signup",
+      "https://ecommerce-api-production-8106.up.railway.app/auth/signup",
       user
     );
 
